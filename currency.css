@@ -1,0 +1,35 @@
+body{
+    background-color: burlywood;
+    color: white;
+}
+
+.container{
+    background-color: rgb(50, 143, 14);
+    width: 500px;
+    margin: 300px auto;
+    padding: 20px;
+   
+}
+
+.container .box{
+   display: flex;
+   width: 100%;
+}
+
+.box div{
+    width: 100%;
+}
+
+select{
+    width: 95%;
+    height: 40px;
+    background-color: rgba(29, 13, 99, 0.432);
+    color: white;
+    font-size: 18px;
+}
+
+#input,#result{
+    padding: 8px;
+    margin: 4px 2px 4px 0px;
+    width: 85%;
+}
